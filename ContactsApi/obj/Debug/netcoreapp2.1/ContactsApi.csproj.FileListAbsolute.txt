@@ -1,0 +1,14 @@
+/Users/ahmad/Projects/ContactsApi/ContactsApi/bin/Debug/netcoreapp2.1/ContactsApi.deps.json
+/Users/ahmad/Projects/ContactsApi/ContactsApi/bin/Debug/netcoreapp2.1/ContactsApi.runtimeconfig.json
+/Users/ahmad/Projects/ContactsApi/ContactsApi/bin/Debug/netcoreapp2.1/ContactsApi.runtimeconfig.dev.json
+/Users/ahmad/Projects/ContactsApi/ContactsApi/bin/Debug/netcoreapp2.1/ContactsApi.dll
+/Users/ahmad/Projects/ContactsApi/ContactsApi/bin/Debug/netcoreapp2.1/ContactsApi.pdb
+/Users/ahmad/Projects/ContactsApi/ContactsApi/obj/Debug/netcoreapp2.1/ContactsApi.csprojResolveAssemblyReference.cache
+/Users/ahmad/Projects/ContactsApi/ContactsApi/obj/Debug/netcoreapp2.1/ContactsApi.csproj.CoreCompileInputs.cache
+/Users/ahmad/Projects/ContactsApi/ContactsApi/obj/Debug/netcoreapp2.1/ContactsApi.RazorAssemblyInfo.cache
+/Users/ahmad/Projects/ContactsApi/ContactsApi/obj/Debug/netcoreapp2.1/ContactsApi.RazorAssemblyInfo.cs
+/Users/ahmad/Projects/ContactsApi/ContactsApi/obj/Debug/netcoreapp2.1/ContactsApi.AssemblyInfoInputs.cache
+/Users/ahmad/Projects/ContactsApi/ContactsApi/obj/Debug/netcoreapp2.1/ContactsApi.AssemblyInfo.cs
+/Users/ahmad/Projects/ContactsApi/ContactsApi/obj/Debug/netcoreapp2.1/ContactsApi.RazorTargetAssemblyInfo.cache
+/Users/ahmad/Projects/ContactsApi/ContactsApi/obj/Debug/netcoreapp2.1/ContactsApi.dll
+/Users/ahmad/Projects/ContactsApi/ContactsApi/obj/Debug/netcoreapp2.1/ContactsApi.pdb
