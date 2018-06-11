@@ -52,14 +52,36 @@ namespace ContactsApi.Controllers
 
         // PUT api/values/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody]string value)
+        public IActionResult Update(long id, ContactItem item)
         {
+            var contactItem = _context.ContactItems.Find(id);
+            if(contactItem == null)
+            {
+                return NotFound();
+            }
+            contactItem.Address = item.Address;
+            contactItem.PhoneNumber = item.PhoneNumber;
+            contactItem.Name = item.Name;
+
+            _context.ContactItems.Update(contactItem);
+            _context.SaveChanges();
+
+            return NoContent();
+            
         }
 
         // DELETE api/values/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public IActionResult Delete(long id)
         {
+            var contactItem = _context.ContactItems.Find(id);
+            if (contactItem == null)
+            {
+                return NotFound();
+            }
+            _context.ContactItems.Remove(contactItem);
+            _context.SaveChanges();
+            return NoContent();
         }
     }
 }
