@@ -1,12 +1,13 @@
 ﻿<Properties StartupConfiguration="{288E56B7-2713-4043-99E4-F293345DC434}|Default">
   <MonoDevelop.Ide.ItemProperties.ContactsApi PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ContactsApi/Controllers/ContactsController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ContactsApi Status">
     <Files>
       <File FileName="ContactsApi/Controllers/ValuesController.cs" Line="9" Column="32" />
       <File FileName="ContactsApi/Models/ContactItem.cs" Line="9" Column="47" />
       <File FileName="ContactsApi/Models/DatabaseContext.cs" Line="13" Column="16" />
       <File FileName="ContactsApi/Startup.cs" Line="21" Column="43" />
-      <File FileName="ContactsApi/Controllers/ContactsController.cs" Line="42" Column="10" />
+      <File FileName="ContactsApi/Controllers/ContactsController.cs" Line="1" Column="1" />
+      <File FileName="ContactsApi Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
