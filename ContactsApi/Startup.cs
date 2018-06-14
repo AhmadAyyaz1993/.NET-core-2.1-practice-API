@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ContactsApi.Managers;
 using ContactsApi.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -28,6 +29,7 @@ namespace ContactsApi
         {
             services.AddDbContext<DatabaseContext>(opt =>
                 opt.UseInMemoryDatabase("ContactsList"));
+            services.AddScoped<IDataRepository<ContactItem>, ContactManager>();
             services.AddMvc()
                     .SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }

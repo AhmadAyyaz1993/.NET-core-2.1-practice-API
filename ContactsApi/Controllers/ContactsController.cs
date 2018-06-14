@@ -13,75 +13,68 @@ namespace ContactsApi.Controllers
     [ApiController]
     public class ContactsController : ControllerBase
     {
-        private readonly DatabaseContext _context;
+        private readonly IDataRepository<ContactItem> _iRepo;   
 
 
-        public ContactsController(DatabaseContext context){
-            _context = context;
+        public ContactsController(IDataRepository<ContactItem> iRepo){
+            _iRepo = iRepo;
 
 
         }
 
         // GET: api/values
         [HttpGet]
-        public ActionResult<List<ContactItem>> GetAll()
+        public IEnumerable<ContactItem> GetAll()
         {
-            return _context.ContactItems.ToList();
+            return _iRepo.GetAll();
         }
 
         // GET api/values/5
         [HttpGet("{id}", Name = "GetContact")]
-        public ActionResult<ContactItem> GetById(long id)
+        public ContactItem GetById(long id)
         {
-            var item = _context.ContactItems.Find(id);
+            var item = _iRepo.GetById(id);
             if (item == null)
             {
-                return NotFound();
+                return item;
             }
             return item;
         }
         // POST api/values
         [HttpPost]
-        public IActionResult Create(ContactItem item)
+        public ContactItem Create(ContactItem item)
         {
-            _context.ContactItems.Add(item);
-            _context.SaveChanges();
+            var contactItem = _iRepo.Create(item);
 
-            return CreatedAtRoute("GetContact", new { id = item.Id }, item);
+            return contactItem;
         }
 
         // PUT api/values/5
         [HttpPut("{id}")]
-        public IActionResult Update(long id, ContactItem item)
+        public ContactItem Update(long id, ContactItem item)
         {
-            var contactItem = _context.ContactItems.Find(id);
+            var contactItem = _iRepo.Update(id,item);
             if(contactItem == null)
             {
-                return NotFound();
+                return contactItem;
             }
-            contactItem.Address = item.Address;
-            contactItem.PhoneNumber = item.PhoneNumber;
-            contactItem.Name = item.Name;
 
-            _context.ContactItems.Update(contactItem);
-            _context.SaveChanges();
 
-            return NoContent();
+            return contactItem;
             
         }
 
         // DELETE api/values/5
         [HttpDelete("{id}")]
-        public IActionResult Delete(long id)
+        public ContactItem Delete(long id)
         {
-            var contactItem = _context.ContactItems.Find(id);
+            var contactItem = _iRepo.Delete(id);
             if (contactItem == null)
             {
-                return NotFound();
+                return contactItem;
             }
-            _context.ContactItems.Remove(contactItem);
-            _context.SaveChanges();
-            return NoContent();
+           
+            return contactItem;
         }
     }
 }
