@@ -35,8 +35,7 @@ namespace ContactsApi.Managers
             _context.ContactItems.Remove(contactItem);
             _context.SaveChanges();
 
-            ContactItem item = _context.ContactItems.Find(contactItem.Id);
-            return item;
+            return contactItem;
         }
 
         public IEnumerable<ContactItem> GetAll()

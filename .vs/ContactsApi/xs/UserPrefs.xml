@@ -4,7 +4,7 @@
     <Files>
       <File FileName="ContactsApi/Controllers/ContactsController.cs" Line="29" Column="36" />
       <File FileName="ContactsApi/Repos/IDataRepository.cs" Line="10" Column="39" />
-      <File FileName="ContactsApi/Managers/ContactManager.cs" Line="70" Column="74" />
+      <File FileName="ContactsApi/Managers/ContactManager.cs" Line="38" Column="31" />
       <File FileName="ContactsApi/Models/ContactItem.cs" Line="15" Column="1" />
       <File FileName="ContactsApi/Startup.cs" Line="32" Column="60" />
       <File FileName="ContactsApi/Program.cs" Line="21" Column="1" />
