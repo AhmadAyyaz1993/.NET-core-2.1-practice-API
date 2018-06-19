@@ -20,4 +20,7 @@
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.1.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Remove="Managers\TEntity.cs" />
+  </ItemGroup>
 </Project>

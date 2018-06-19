@@ -29,7 +29,7 @@ namespace ContactsApi
         {
             services.AddDbContext<DatabaseContext>(opt =>
                 opt.UseInMemoryDatabase("ContactsList"));
-            services.AddScoped<IDataRepository<ContactItem>, ContactManager>();
+            services.AddScoped(typeof(IDataRepository<>), typeof(ContactManager<>));
             services.AddMvc()
                     .SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }

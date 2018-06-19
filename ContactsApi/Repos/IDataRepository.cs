@@ -10,7 +10,7 @@ namespace ContactsApi
         IEnumerable<TEntity> GetAll();
         TEntity GetById(long id);
         TEntity Create(TEntity item);
-        TEntity Update(long id, TEntity item);
+        TEntity Update(TEntity item);
         TEntity Delete(long id);
     }
 }

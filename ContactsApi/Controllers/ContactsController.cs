@@ -50,10 +50,19 @@ namespace ContactsApi.Controllers
         }
 
         // PUT api/values/5
-        [HttpPut("{id}")]
-        public ContactItem Update(long id, ContactItem item)
+        [HttpPut]
+        public ContactItem Update(ContactItem item)
         {
-            var contactItem = _iRepo.Update(id,item);
+            var item2 = _iRepo.GetById(item.Id);
+            if (item2 == null)
+            {
+                return item2;
+            }
+            item2.Address = item.Address;
+            item2.PhoneNumber = item.PhoneNumber;
+            item2.Name = item.Name;
+
+            var contactItem = _iRepo.Update(item2);
             if(contactItem == null)
             {
                 return contactItem;
