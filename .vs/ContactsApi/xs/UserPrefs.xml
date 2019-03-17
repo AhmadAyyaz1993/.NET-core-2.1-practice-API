@@ -2,20 +2,19 @@
   <MonoDevelop.Ide.ItemProperties.ContactsApi PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="ContactsApi Status">
     <Files>
-      <File FileName="ContactsApi/Controllers/ContactsController.cs" Line="65" Column="50" />
-      <File FileName="ContactsApi/Repos/IDataRepository.cs" Line="13" Column="24" />
-      <File FileName="ContactsApi/Managers/ContactManager.cs" Line="65" Column="24" />
-      <File FileName="ContactsApi/Models/ContactItem.cs" Line="15" Column="1" />
-      <File FileName="ContactsApi/Startup.cs" Line="28" Column="29" />
-      <File FileName="ContactsApi/Program.cs" Line="21" Column="1" />
+      <File FileName="ContactsApi/Controllers/ContactsController.cs" Line="88" Column="6" />
+      <File FileName="ContactsApi/Repos/IDataRepository.cs" Line="16" Column="2" />
+      <File FileName="ContactsApi/Managers/ContactManager.cs" Line="55" Column="14" />
+      <File FileName="ContactsApi/Models/ContactItem.cs" Line="4" Column="18" />
+      <File FileName="ContactsApi/Startup.cs" Line="39" Column="20" />
+      <File FileName="ContactsApi/Models/DatabaseContext.cs" Line="15" Column="2" />
+      <File FileName="ContactsApi/appsettings.json" Line="16" Column="19" />
       <File FileName="ContactsApi Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/ahmad/Projects/ContactsApi/ContactsApi/Managers/ContactManager.cs" relfile="ContactsApi/Managers/ContactManager.cs" line="65" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
