@@ -5,16 +5,29 @@
       <File FileName="ContactsApi/Controllers/ContactsController.cs" Line="88" Column="6" />
       <File FileName="ContactsApi/Repos/IDataRepository.cs" Line="16" Column="2" />
       <File FileName="ContactsApi/Managers/ContactManager.cs" Line="55" Column="14" />
-      <File FileName="ContactsApi/Models/ContactItem.cs" Line="4" Column="18" />
-      <File FileName="ContactsApi/Startup.cs" Line="39" Column="20" />
+      <File FileName="ContactsApi/Models/ContactItem.cs" Line="10" Column="48" />
+      <File FileName="ContactsApi/Controllers/LoginController.cs" Line="40" Column="1" />
+      <File FileName="ContactsApi/Models/UserModel.cs" Line="7" Column="35" />
       <File FileName="ContactsApi/Models/DatabaseContext.cs" Line="15" Column="2" />
-      <File FileName="ContactsApi/appsettings.json" Line="16" Column="19" />
+      <File FileName="ContactsApi/appsettings.json" Line="16" Column="149" />
+      <File FileName="ContactsApi/Controllers/ValuesController.cs" Line="1" Column="1" />
       <File FileName="ContactsApi Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/ahmad/Projects/ContactsApi/ContactsApi/Controllers/LoginController.cs" relfile="ContactsApi/Controllers/LoginController.cs" line="59" column="1" />
+      <Breakpoint file="/Users/ahmad/Projects/ContactsApi/ContactsApi/Controllers/LoginController.cs" relfile="ContactsApi/Controllers/LoginController.cs" line="63" column="1" />
+      <Breakpoint file="/Users/ahmad/Projects/ContactsApi/ContactsApi/Controllers/LoginController.cs" relfile="ContactsApi/Controllers/LoginController.cs" line="67" column="1" />
+      <Breakpoint file="/Users/ahmad/Projects/ContactsApi/ContactsApi/Controllers/LoginController.cs" relfile="ContactsApi/Controllers/LoginController.cs" line="36" column="1" />
+      <Breakpoint file="/Users/ahmad/Projects/ContactsApi/ContactsApi/Controllers/LoginController.cs" relfile="ContactsApi/Controllers/LoginController.cs" line="32" column="1" />
+      <Breakpoint file="/Users/ahmad/Projects/ContactsApi/ContactsApi/Controllers/LoginController.cs" relfile="ContactsApi/Controllers/LoginController.cs" line="37" column="1" />
+      <Breakpoint file="/Users/ahmad/Projects/ContactsApi/ContactsApi/Controllers/LoginController.cs" relfile="ContactsApi/Controllers/LoginController.cs" line="40" column="1" />
+      <Breakpoint file="/Users/ahmad/Projects/ContactsApi/ContactsApi/Controllers/LoginController.cs" relfile="ContactsApi/Controllers/LoginController.cs" line="46" column="1" />
+      <Breakpoint file="/Users/ahmad/Projects/ContactsApi/ContactsApi/Controllers/LoginController.cs" relfile="ContactsApi/Controllers/LoginController.cs" line="52" column="1" />
+      <Breakpoint file="/Users/ahmad/Projects/ContactsApi/ContactsApi/Controllers/LoginController.cs" relfile="ContactsApi/Controllers/LoginController.cs" line="54" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
