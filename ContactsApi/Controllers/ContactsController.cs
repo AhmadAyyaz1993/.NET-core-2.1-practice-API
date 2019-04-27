@@ -33,6 +33,7 @@ namespace ContactsApi.Controllers
 
         // GET api/values/5
         [HttpGet("{id}", Name = "GetContact")]
+        [Authorize]
         public ContactItem GetById(long id)
         {
             var item = _iRepo.GetById(id);
@@ -44,6 +45,7 @@ namespace ContactsApi.Controllers
         }
         // POST api/values
         [HttpPost]
+        [Authorize]
         public ContactItem Create(ContactItem item)
         {
             var contactItem = _iRepo.Create(item);
@@ -53,6 +55,7 @@ namespace ContactsApi.Controllers
 
         // PUT api/values/5
         [HttpPut]
+        [Authorize]
         public ContactItem Update(ContactItem item)
         {
             var item2 = _iRepo.GetById(item.Id);
@@ -77,6 +80,7 @@ namespace ContactsApi.Controllers
 
         // DELETE api/values/5
         [HttpDelete("{id}")]
+        [Authorize]
         public ContactItem Delete(long id)
         {
             var contactItem = _iRepo.Delete(id);
